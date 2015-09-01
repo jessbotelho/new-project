@@ -1,0 +1,87 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body{
+	background-color:#11a6d4;
+}
+
+#register-box{
+	background-color:#1992b7;
+	width: 380px;
+	height: 300px;
+	margin: 140px auto 0px;
+	border-radius:5px;
+	
+
+}
+
+#register-box-label{
+	background-color:#EAEAEA;
+	height: 45px;
+	text-align:center;
+	font: bold 14px/45px sans-serif;
+	border-top-left-radius:5px;
+	border-top-right-radius: 5px;
+	border-bottom:#A9A9A9;
+	box-shadow: 1px 0px 0px #dedede;
+	color:#555555;
+	text-shadow: 1px 0px 0px white;
+	
+}
+
+#register-box-interno{
+	background-color:#FdFdFd;
+	width:1000px;
+	height:500px;
+	position:absolute;
+	border-radius:5px;
+	margin:10px;
+	box-shadow:0px 0px 5px black;
+	overflow:hidden;
+	margin-left:180px;
+	margin-top:50px;
+	
+}
+
+.input-div{
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	border-radius:3px;
+}
+
+.input-div input{
+	width:940px;
+	height:35px;
+	padding-left:5px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+	outlife:none;
+}
+
+.input-div:hover{
+	background-color:#e0f1fc;
+}
+
+.input-div:hover input{
+	border-color:#7dc6dd;
+	cursor:pointer;
+}
+
+#botoes{
+	width:310px;
+	margin-left:265px;
+}
+
+#botao{
+	float:right;
+	padding:5px 15px;
+	font: bold 12px sans-serif;
+	border-radius:20px;
+	text-shadow:1px white;
+	border: 1px solid #9eb9c3;
+	background-color:#edf6f9;
+}
+
