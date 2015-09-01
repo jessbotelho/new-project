@@ -1,0 +1,167 @@
+@charset "utf-8";
+/* CSS Document */
+#body{
+	background-color:#11a6d4;
+}
+
+#login-box{
+	background-color:#1992b7;
+	width: 380px;
+	height: 300px;
+	margin: 140px auto 0px;
+	border-radius:5px;
+	
+
+}
+
+#login-box-interno{
+	background-color:#FdFdFd;
+	width:360px;
+	height:280px;
+	position:absolute;
+	border-radius:5px;
+	margin:10px;
+	box-shadow:0px 0px 5px black;
+	overflow:hidden;
+	
+}
+
+#login-box-label{
+	background-color:#EAEAEA;
+	height: 45px;
+	text-align:center;
+	font: bold 14px/45px sans-serif;
+	border-top-left-radius:5px;
+	border-top-right-radius: 5px;
+	border-bottom:#A9A9A9;
+	box-shadow: 1px 0px 0px #dedede;
+	color:#555555;
+	text-shadow: 1px 0px 0px white;
+}
+
+.input-div{
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	border-radius:3px;
+}
+
+.input-div input{
+	width:310px;
+	height:35px;
+	padding-left:5px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+	outlife:none;
+}
+
+.input-div:hover{
+	background-color:#e0f1fc;
+}
+
+.input-div:hover input{
+	border-color:#7dc6dd;
+	cursor:pointer;
+}
+
+.input-senha{
+	margin-top:-10px;
+}
+
+.botoes{
+	width:310px;
+	margin-left:25px;
+}
+
+#botao{
+	float:right;
+	padding:5px 15px;
+	font: bold 12px sans-serif;
+	border-radius:20px;
+	text-shadow:1px white;
+	border: 1px solid #9eb9c3;
+	background-color:#edf6f9;
+	margin-top:-15px;
+	margin-right:150px;
+	
+}
+
+#botao:hover{
+	background-color:#e0f1fc;
+	cursor:pointer;
+}
+
+
+#esqueci-senha{
+	text-align:left;
+	font: bold 10px/45px sans-serif;
+	clear:both;
+	margin-bottom:-15px;
+	margin-top:-15px;
+	float:left;
+	margin-left:75px;
+}
+
+#cadastrar{
+	float:left;
+	font: bold 12px sans-serif;
+	border-radius:20px;
+	text-shadow:1px white;
+	border: 1px solid #9eb9c3;
+	background-color:#edf6f9;
+	clear:right;
+	width:70px;
+	margin-left:30px;
+	height:19px;
+	margin-top:-26px;
+	text-align:center;
+	padding:5px 0 0 0;
+}
+
+#cadastrar:hover{
+	background-color:#e0f1fc;
+	cursor:pointer;
+}
+
+#lembrar-senha{
+	margin-top:-35px;
+	margin-left:200px;
+	font: bold 10px/45px sans-serif;
+	clear:both;
+	text-align:center;
+	vertical-align:central;
+	alignment-adjust:central;
+}
+
+#botoes-list{
+	display:inline-block;
+	clear:both;
+}
+
+.checkbox{
+	margin-top:-29px;
+	clear:both;
+	float:right;
+	margin-right:25px;
+}
+
+#usuario{
+	font-family:Arial;
+	font-style:normal;
+	font-size:12px;
+	padding-left:25px;
+	margin-bottom:-15px;
+	margin-top:10px;
+}
+
+#senha{
+	font-family:Arial;
+	font-style:normal;
+	font-size:12px;
+	padding-left:25px;
+	margin-bottom:-15px;
+	margin-top:10px;
+}
+	
