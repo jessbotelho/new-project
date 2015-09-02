@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="css/cadastro.css">
+
+											<title>Cadastro</title>
+</head>
+
+	<body id="body">
+			<div register-box>
+            		<div id="register-box-interno"> 
+                    	<div id="register-box-label"> Cadastro </div>
+                <div class="input-div" > <input placeholder="Empresa" type="text"> </div>
+                <div class="input-div" > <input placeholder="Endereço" type="text"> </div>
+                <div class="input-div" > <input placeholder="E-mail" type="email"> </div>
+                <div class="input-div" > <input placeholder="CNPJ" type="text"> </div>
+                <div class="input-div" > <input placeholder="Telefone" type="tel"> </div>
+                <div id="botoes"> <div id="botao"><a href="" style="text-decoration:none;"> Solicitar Cadastro </a> </div> 
+                </div>
+            </div>
+               
+	</body>
+</html>
