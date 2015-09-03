@@ -63,7 +63,7 @@
 
 .input-div:hover input{
 	border-color:#7dc6dd;
-	cursor:pointer;
+	cursor:text;
 }
 
 .input-senha{
