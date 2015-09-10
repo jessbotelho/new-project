@@ -7,8 +7,8 @@
 
 #register-box{
 	background-color:#1992b7;
-	width: 380px;
-	height: 500px;
+	width: 340px;
+	height: 300px;
 	margin: 140px auto 0px;
 	border-radius:5px;
 	
@@ -31,8 +31,8 @@
 
 #register-box-interno{
 	background-color:#FdFdFd;
-	width:1000px;
-	height:650px;
+	width:960px;
+	height:450px;
 	position:absolute;
 	border-radius:5px;
 	margin:10px;
@@ -43,45 +43,239 @@
 	
 }
 
-.input-div{
+#razao{
+	border-radius:3px;
 	margin:20px;
 	padding: 5px;
 	backgroung-color:#f2f5f7;
-	border-radius:3px;
+	float:left;
 }
 
-.input-div input{
-	width:940px;
+#razao input{
+	width:410px;
 	height:35px;
 	padding-left:5px;
 	font: normal 13px sans-serif;
 	color:#aeaeae;
 	border-radius:3px;
 	border:1px solid #bfc4c6;
-	outlife:none;
 }
 
-.input-div:hover{
-	background-color:#e0f1fc;
+#razao:hover input{
+	border-color:#7dc6dd;
+	border:1px solid #7dc6dd;
+	cursor:text;
 }
 
-.input-div:hover input{
+#cnpj{
+	border-radius:3px;
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	float:right;
+	padding-right:5px;
+}
+
+#cnpj input{
+	width:415px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#cnpj:hover input{
 	border-color:#7dc6dd;
 	cursor:text;
+	margin-left:0;
+}
+
+#endereco{
+	border-radius:3px;
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	float:left;
+	padding-right:100px;
+}
+
+#endereco input{
+	width:905px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#endereco:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#municipio{
+	border-radius:3px;
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	float:left;
+	padding-right:100px;
+}
+
+#municipio input{
+	width:410px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#municipio:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#uf{
+	border-radius:3px;
+	margin-top:20px;
+	margin-left:-110px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	float:left;
+}
+
+#uf input{
+	width:35px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#uf:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#cep{
+	border-radius:3px;
+	margin:20px;
+	margin-top:-65px;
+	backgroung-color:#f2f5f7;
+	float:right;
+	padding-right:5px;
+}
+
+#cep input{
+	width:415px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#cep:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#pessoa{
+	border-radius:3px;
+	margin:20px;
+	padding: 5px;
+	backgroung-color:#f2f5f7;
+	float:left;
+}
+
+#pessoa input{
+	width:378px;
+	height:35px;
+	padding-left:3px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#pessoa:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#telefone{
+	border-radius:3px;
+	margin:20px;
+	margin-top:24px;
+	backgroung-color:#f2f5f7;
+	float:left;
+	margin-left:-11px;
+}
+
+#telefone input{
+	width:250px;
+	height:35px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#telefone:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
+}
+
+#celular{
+	border-radius:3px;
+	margin:20px;
+	margin-top:-64px;
+	backgroung-color:#f2f5f7;
+	float:right;
+	margin-left:360px;
+}
+
+#celular input{
+	width:250px;
+	height:35px;
+	font: normal 13px sans-serif;
+	color:#aeaeae;
+	border-radius:3px;
+	border:1px solid #bfc4c6;
+}
+
+#celular:hover input{
+	border-color:#7dc6dd;
+	cursor:text;
+	margin-left:0;
 }
 
 #botoes{
 	width:310px;
-	margin-left:265px;
+	margin-left:250px;
 }
 
 #botao{
-	float:right;
+	float:left;
 	padding:5px 15px;
+	margin-left:160px;
 	font: bold 12px sans-serif;
 	border-radius:20px;
 	text-shadow:1px white;
 	border: 1px solid #9eb9c3;
 	background-color:#edf6f9;
 }
-
