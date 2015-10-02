@@ -3,13 +3,15 @@
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
         <link rel="stylesheet" href="../css/cadastro.css">
+        <link rel="stylesheet" href="../new-project/logic/cadastro.php" />
         <title>Cadastro</title>
     </head>
 
-	<body id="body">
-			<div register-box>
-            		<div id="register-box-interno"> 
-                    	<div id="register-box-label"> Cadastro </div>
+    <body id="body">
+    <form action="../logic/controller/cadastroController.php" method="POST">
+        <div register-box>
+            <div id="register-box-interno"> 
+                <div id="register-box-label"> Cadastro </div>
                 <div id="razao" > <input placeholder="Razão Social" type="text"> </div>
                 <div id="cnpj"> <input placeholder="CNPJ" type="text"> </div>
                 <div id="endereco"> <input placeholder="Endereço Completo" type="text"> </div>
@@ -22,6 +24,7 @@
                 <div id="botoes"> <div id="botao"><a href="" style="text-decoration:none;"> Solicitar Cadastro </a> </div> 
                 </div>
             </div>
-               
-	</body>
+        </div>
+        </form>
+    </body>
 </html>
