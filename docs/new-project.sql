@@ -12,8 +12,7 @@ CREATE TABLE IF NOT EXISTS `new-project`.`cliente` (
   `estado` VARCHAR(10) NOT NULL COMMENT '',
   `tel_fixo` VARCHAR(50) NOT NULL COMMENT '',
   `tel_celular` VARCHAR(50) NOT NULL COMMENT '',
-  PRIMARY KEY (`id_cliente`)  COMMENT '')
-ENGINE = InnoDB;
+  PRIMARY KEY (`id_cliente`)  COMMENT '');
 
 -- -----------------------------------------------------
 -- Table `mydb`.`usuario`
@@ -24,8 +23,7 @@ CREATE TABLE IF NOT EXISTS `new-project`.`usuario` (
   `usuario` INT NOT NULL COMMENT '',
   `senha` VARCHAR(45) NOT NULL COMMENT '',
   `cliente_id_cliente` INT NOT NULL COMMENT '',
-  PRIMARY KEY (`id_usuario`)  COMMENT '')
-ENGINE = InnoDB;
+  PRIMARY KEY (`id_usuario`)  COMMENT '');
 
 
 -- -----------------------------------------------------
@@ -53,5 +51,4 @@ CREATE TABLE IF NOT EXISTS `new-project`.`amostra` (
   `silte` VARCHAR(50) NOT NULL COMMENT '',
   `areia` VARCHAR(50) NOT NULL COMMENT '',
   `amostracol` VARCHAR(45) NOT NULL COMMENT '',
-  PRIMARY KEY (`id_amostra`)  COMMENT '')
-ENGINE = InnoDB;
+  PRIMARY KEY (`id_amostra`)  COMMENT '');
