@@ -4,7 +4,7 @@
  * @author Jhonas
  *
  */
-class Cliente {
+class Cliente extends Usuario{
 
     private $id_cliente;
     private $email;
@@ -12,8 +12,17 @@ class Cliente {
     private $cep;
     private $municipio;
     private $estado;
+    private $pessoa_contato;
     private $tel_fixo;
     private $tel_celular;
+    
+    public function getPessoa_Contato() {
+    	return $this->pessoa_contato;
+    }
+    
+    public function setPessoa_contato($pessoa_contato) {
+    	$this->pessoa_contato = $pessoa_contat;
+    }    
 
     public function getId_cliente() {
         return $this->id_cliente;

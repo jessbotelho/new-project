@@ -1,4 +1,8 @@
 <?php
+	
+	include '../logic/entity/cliente.php';
+	include '../dataBase/connection.php';
+	
     class clienteDAO{
 
         public static  $instance;
@@ -34,11 +38,16 @@
                      :tel_fixo,
                      :tel_celular)";
 
-    			$p_sql = Conexao::getInstance()->prepare($sql); $p_sql->bindValue(":nome", $usuario->getNome());
-    			$p_sql->bindValue(":email", $usuario->getEmail()); 
-    			$p_sql->bindValue(":senha", $usuario->getSenha()); 
-    			$p_sql->bindValue(":ativo", $usuario->getAtivo());
-    			$p_sql->bindValue(":cod_perfil", $usuario->getPerfil()->getCod_perfil());
+    			$clienteDao_sql = Conexao::getInstance()->prepare($sql); $p_sql->bindValue(":email", $cliente->getEmail());
+    			$clienteDao_sql->bindValue(":endereco", $cliente->getEndereco()); 
+    			$clienteDao_sql->bindValue(":cep", $cliente->getCep()); 
+    			$clienteDao_sql->bindValue(":municipio", $cliente->getMunicipio());
+    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
+    			$clienteDao_sql->bindValue(":tel_fixo", $usuario->getTel_fixo());
+    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
+    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
+    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
+    			
                 return $p_sql->execute();
             } 
             catch (Exception $e) {
