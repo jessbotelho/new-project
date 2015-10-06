@@ -7,7 +7,7 @@
 
         public static  $instance;
 
-    	private function __construct(){
+    	public function __construct(){
             //
         }
 
@@ -21,12 +21,13 @@
         public function cadastroDAO(){
 
     		try {
-                $sql = "INSERT INTO usuario 
+                $sql = "INSERT INTO cliente 
                     (email
                      endereco
                      cep
                      municipio
                      estado
+                	 pessoa_contato
                      tel_fixo
                      tel_celular)
     			  VALUES(
@@ -34,6 +35,7 @@
                      :endereco,
                      :cep,
                      :municipio,
+                	 :pessoa_contato,
                      :estado,
                      :tel_fixo,
                      :tel_celular)";
@@ -42,13 +44,12 @@
     			$clienteDao_sql->bindValue(":endereco", $cliente->getEndereco()); 
     			$clienteDao_sql->bindValue(":cep", $cliente->getCep()); 
     			$clienteDao_sql->bindValue(":municipio", $cliente->getMunicipio());
-    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
-    			$clienteDao_sql->bindValue(":tel_fixo", $usuario->getTel_fixo());
-    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
-    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
-    			$clienteDao_sql->bindValue(":estado", $usuario->getEstado());
-    			
-                return $p_sql->execute();
+    			$clienteDao_sql->bindValue(":estado", $cliente->getEstado());
+    			$clienteDao_sql->bindValue(":pessoa_contato", $cliente->getPesoa_contato());
+    			$clienteDao_sql->bindValue(":tel_fixo", $cliente->getTel_fixo());
+    			$clienteDao_sql->bindValue(":tel_celular", $cliente->getTel_celular());
+    			    			
+                return $clienteDao_sql->execute();
             } 
             catch (Exception $e) {
                 print "Ocorreu um erro ao tentar executar esta ação, foi gerado um LOG do mesmo, tente novamente mais tarde."; 

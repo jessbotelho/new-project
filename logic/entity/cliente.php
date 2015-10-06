@@ -7,6 +7,8 @@
 class Cliente extends Usuario{
 
     private $id_cliente;
+    private $razao_social;
+    private $cnpj_cli;
     private $email;
     private $endereco;
     private $cep;
@@ -16,21 +18,30 @@ class Cliente extends Usuario{
     private $tel_fixo;
     private $tel_celular;
     
-    public function getPessoa_Contato() {
-    	return $this->pessoa_contato;
+    public function getId_cliente() {
+    	return $this->id_cliente;
     }
     
-    public function setPessoa_contato($pessoa_contato) {
-    	$this->pessoa_contato = $pessoa_contat;
-    }    
-
-    public function getId_cliente() {
-        return $this->id_cliente;
-    }
-
     public function setId_cliente($id_cliente) {
-        $this->id_cliente = $id_cliente;
+    	$this->id_cliente = $id_cliente;
     }
+    
+    public function getRazao_social() {
+    	return $this->razao_social;
+    }
+    
+    public function setRazao_social($razao_social) {
+    	$this->razao_social = $razao_social;
+    }
+    
+    public function getCnpj_cli() {
+    	return $this->cnpj_cli;
+    }
+    
+    public function setCnpj_cli($cnpj_cli) {
+    	$this->cnpj_cli = $cnpj_cli;
+    }
+    
 
     public function getEmail() {
         return $this->email;
@@ -70,6 +81,14 @@ class Cliente extends Usuario{
 
     public function setEstado($estado) {
         $this->estado = $estado;
+    }
+    
+    public function getPessoa_contato() {
+    	return $this->pessoa_contato;
+    }
+    
+    public function setPessoa_contato($pessoa_contato) {
+    	$this->pessoa_contato = $pessoa_contat;
     }
 
     public function getTel_fixo() {
