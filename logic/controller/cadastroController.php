@@ -10,6 +10,9 @@
 	 $pessoa_contato = $_POST("pessoa_contato");
 	 $tel_fixo       = $_POST("tel_fixo");
 	 $tel_celular    = $_POST("tel_celular");
-
-
+	 
+	if ($razao_social == null || $razao_social == 0) {
+		echo "Razão Social invalida e digite novamente";
+		;
+	}
 ?>
