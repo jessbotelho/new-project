@@ -33,19 +33,10 @@
 
 					<div id="lembrar-senha">Lembrar senha</div>
 					
-					<input type="checkbox" class="checkbox">
-
-					<div class="botoes">
-						<div id="botao">
-							<a href="" style="text-decoration: none;"> Entrar</a>
-						</div>
-					</div>
-					
-					<div id="cadastrar">
-						<a href="cadastro.html" style="text-decoration: none;">
-							Cadastrar </a>
-					</div>
-
+									<input type="checkbox" class="checkbox">
+ <ul style="list-style:none; display:inline;"><li>	<input type="button" value="Entrar" class="botoes" style="position:absolute; bottom:20px; left:20px;"> </li>
+                        	  <li>	<input type="button" value="Cadastrar" class="botoes" style="position:relative; bottom:22px; left:100px;" > </li>
+                                </ul>
 				</div>
 			</div>
 		</div>
