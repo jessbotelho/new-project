@@ -8,14 +8,14 @@
 		<title>Cadastro</title>
 	</head>
 	<body id="body">
-		<form action=".../logic/controller/cadastroController.php"
+		<form action=".../logic/controller/clienteController.php"
 			method="POST">
 			<div register-box>
 				<div id="register-box-interno">
 					<div id="register-box-label">Cadastro</div>
 					<div id="razao">
 						<input placeholder="Razão Social" type="text" name="razao"
-							id="razaoSocial">
+							id="razao_social">
 					</div>
 					<div id="cnpj">
 						<input placeholder="CNPJ" type="text" name="cnpj" id="cnpj_cli">
@@ -40,12 +40,12 @@
 							name="pessoaContato" id="pessoaContato">
 					</div>
 					<div id="telefone">
-						<input placeholder="Telefone fixo" type="tel" name="telefonefixo"
-							id="telefonefixo">
+						<input placeholder="Telefone fixo" type="tel" name="tel_fixo"
+							id="tel_fixo">
 					</div>
 					<div id="celular">
 						<input placeholder="Telefone Celular" type="tel"
-							name="telefoneCelular" id="telefoneCelular">
+							name="tel_celular" id="tel_celular">
 					</div>
 					<div id="botoes">
 						<div id="botao">
