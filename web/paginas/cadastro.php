@@ -14,47 +14,53 @@
 				<div id="register-box-interno">
 					<div id="register-box-label">Cadastro</div>
 					<div id="razao">
-						<input placeholder="Razão Social" type="text" name="razao"
+						<input placeholder="RazÃ£o Social" type="text" name="razao"
 							id="razaoSocial">
 					</div>
+                    
 					<div id="cnpj">
 						<input placeholder="CNPJ" type="text" name="cnpj" id="cnpj_cli">
 					</div>
+                    
 					<div id="endereco">
-						<input placeholder="Endereço Completo" type="text"
+						<input placeholder="EndereÃ§o Completo" type="text"
 							name="enderecoCompleto" id="enderecoCompleto">
 					</div>
+                    
 					<div id="municipio">
-						<input placeholder="Município" type="text" name="municipio"
+						<input placeholder="MunicÃ­pio" type="text" name="municipio"
 							id="municipio_cli">
 					</div>
-					<div id="uf">
-						<input name="estado" id="estado" placeholder="UF" type="text"
-							style="text-align: center;">
-					</div>
+                    
 					<div id="cep">
 						<input placeholder="CEP" type="text" name="cep" id="cep_cli">
 					</div>
+                    
+                    <div id="uf">
+						<input name="estado" id="estado" placeholder="UF" type="text"
+							style="text-align: center;">
+					</div>
+                    
 					<div id="pessoa">
 						<input placeholder="Pessoa de contato" type="text"
 							name="pessoaContato" id="pessoaContato">
 					</div>
+                    
+                    <div id="email">
+						<input placeholder="Email" type="email"
+							name="Email" id="email">
+					</div>
+                    
 					<div id="telefone">
 						<input placeholder="Telefone fixo" type="tel" name="telefonefixo"
 							id="telefonefixo">
 					</div>
+                    
 					<div id="celular">
 						<input placeholder="Telefone Celular" type="tel"
 							name="telefoneCelular" id="telefoneCelular">
 					</div>
-					<div id="botoes">
-						<div id="botao">
-							<input type="submit" style="text-decoration: none;" id="botao">
-<!--							<a href="" style="text-decoration: none;"> Solicitar Cadastro</a> -->
-						</div>
-					</div>
-				</div>
-			</div>
+                    
 			<script type="text/javascript">
 					$(document).ready(function(){
 						$("#cnpj_cli").mask("99.999.999/9999-99");
@@ -63,6 +69,7 @@
 		   				$('#telefoneCelular').mask('(99) 9 9999-9999');
 		   			}); 
 			</script>
+            <input type="button" value="Solicitar Cadastro" id="botao">
 		</form>
 	</body>
 </html>
