@@ -11,5 +11,12 @@
 	 $tel_fixo       = $_POST("tel_fixo");
 	 $tel_celular    = $_POST("tel_celular");
 
-
+	
+	 //Validações dos campos recebidos
+	 
+	 if ($razao_social == null) {
+	 	
+	 	;
+	 }
+	 
 ?>
