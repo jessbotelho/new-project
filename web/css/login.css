@@ -67,12 +67,6 @@
 }
 
 .botoes{
-	width:310px;
-	margin-left:25px;
-}
-
-#botao{
-	float:right;
 	padding:5px 15px;
 	font: bold 12px sans-serif;
 	border-radius:20px;
@@ -84,7 +78,7 @@
 	
 }
 
-#botao:hover{
+.botoes:hover{
 	background-color:#e0f1fc;
 	cursor:pointer;
 }
@@ -100,27 +94,6 @@
 	margin-left:75px;
 }
 
-#cadastrar{
-	float:left;
-	font: bold 12px sans-serif;
-	border-radius:20px;
-	text-shadow:1px white;
-	border: 1px solid #9eb9c3;
-	background-color:#edf6f9;
-	clear:right;
-	width:70px;
-	margin-left:30px;
-	height:19px;
-	margin-top:-26px;
-	text-align:center;
-	padding:5px 0 0 0;
-}
-
-#cadastrar:hover{
-	background-color:#e0f1fc;
-	cursor:pointer;
-}
-
 #lembrar-senha{
 	margin-top:-35px;
 	margin-left:200px;
@@ -130,12 +103,6 @@
 	vertical-align:central;
 	alignment-adjust:central;
 }
-
-#botoes-list{
-	display:inline-block;
-	clear:both;
-}
-
 .checkbox{
 	margin-top:-29px;
 	clear:both;
@@ -160,4 +127,3 @@
 	margin-bottom:-15px;
 	margin-top:10px;
 }
-	
