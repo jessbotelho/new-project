@@ -2,12 +2,10 @@
 <html>
 	<head>
 		<title>Cadastro</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 		<link rel="stylesheet" href="../css/cadastro.css" />
 		<script src="../js/jquery-1.2.6.pack.js" type="text/javascript"></script>
-		<script src="../js/jquery.maskedinput-1.1.4.pack.js"
-			type="text/javascript" /></script>
-		
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<script src="../js/jquery.maskedinput-1.1.4.pack.js" type="text/javascript" /></script>
 	</head>
 	<body id="body">
 		<form action=".../logic/controller/clienteController.php" method="POST">

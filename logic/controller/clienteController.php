@@ -58,14 +58,17 @@ class clienteController {
 			$cliente->setEmail($email);
 			$cliente->setEndereco($endereco);
 			$cliente->setCep($cep);
+			$cliente->setMunicipio($municipio);
+			$cliente->setEstado($estado);
+			$cliente->setPessoa_contato($pessoa_contato);
+			$cliente->setTel_fixo($tel_fixo);
+			$cliente->setTel_celular($tel_celular);
 			
+			cadastroDao($cliente);
+		
 		}
 		
-		
 	}
-	
-	
-	
 	
 }
 
