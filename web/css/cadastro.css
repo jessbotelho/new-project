@@ -7,10 +7,11 @@
 
 #register-box{
 	background-color:#1992b7;
-	width: 340px;
-	height: 300px;
+	width: 980px;
+	height: 460px;
 	margin: 140px auto 0px;
 	border-radius:5px;
+	padding:1px;
 }
 
 #register-box-label{
@@ -31,14 +32,10 @@
 	background-color:#FdFdFd;
 	width:960px;
 	height:430px;
-	position:absolute;
 	border-radius:5px;
-	margin:10px;
 	box-shadow:0px 0px 5px black;
 	overflow:hidden;
-	margin-left:180px;
-	margin-top:50px;
-	
+	margin:10px;
 }
 
 #razao{
