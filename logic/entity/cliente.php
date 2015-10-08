@@ -11,8 +11,8 @@ class Cliente extends Usuario{
     private $cnpj_cli;
     private $email;
     private $endereco;
-    private $cep;
-    private $municipio;
+    private $cep_cli;
+    private $municipio_cli;
     private $estado;
     private $pessoa_contato;
     private $tel_fixo;

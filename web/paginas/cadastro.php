@@ -25,7 +25,7 @@
 							name="enderecoCompleto" id="enderecoCompleto">
 					</div>
 					<div id="municipio">
-						<input placeholder="Município" type="text" name="municipio"
+						<input placeholder="Município" type="text" name="municipio_cli"
 							id="municipio_cli">
 					</div>
 					<div id="uf">
@@ -33,7 +33,7 @@
 							style="text-align: center;">
 					</div>
 					<div id="cep">
-						<input placeholder="CEP" type="text" name="cep" id="cep_cli">
+						<input placeholder="CEP" type="text" name="cep_cli" id="cep_cli">
 					</div>
 					<div id="pessoa">
 						<input placeholder="Pessoa de contato" type="text"
