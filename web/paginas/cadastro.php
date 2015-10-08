@@ -16,7 +16,7 @@
 					<div id="register-box-label">Cadastro</div>
 					
 					<div id="razao">
-						<input placeholder="Razão Social" type="text" name="razao_social" id="razao_social">
+						<input placeholder="RazÃ£o Social" type="text" name="razao_social" id="razao_social">
 					</div>
                     
 					<div id="cnpj">
@@ -24,7 +24,7 @@
 					</div>
                     
 					<div id="endereco">
-						<input placeholder="Endereço Completo" type="text"	name="enderecoCompleto" id="enderecoCompleto">
+						<input placeholder="EndereÃ§o Completo" type="text"	name="enderecoCompleto" id="enderecoCompleto">
 					</div>
                     
 					<div id="municipio">
