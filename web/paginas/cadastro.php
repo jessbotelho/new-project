@@ -57,6 +57,7 @@
         		</div>
         	</div>
 		</form>
+		
 		<script type="text/javascript">
 			$(document).ready(function(){
 				$("#cnpj_cli").mask("99.999.999/9999-99");
