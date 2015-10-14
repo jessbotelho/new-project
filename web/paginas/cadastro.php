@@ -55,12 +55,12 @@
 					
                     <input type="button" value="Solicitar Cadastro" id="botao">
         		</div>
-        	</div>
-		</form>
-		<script type="text/javascript">
-			$(document).ready(function(){
-				$("#cnpj_cli").mask("99.999.999/9999-99");
-			   	$('#cep_cli').mask('99999-999');
+         	</div>
+ 		</form>
++		
+ 		<script type="text/javascript">
+ 			$(document).ready(function(){
+ 				$("#cnpj_cli").mask("99.999.999/9999-99");
 			   	$('#telefonefixo').mask('(99)9999-9999');
 			   	$('#telefoneCelular').mask('(99) 9 9999-9999');
 			}); 
